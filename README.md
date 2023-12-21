@@ -12,13 +12,20 @@ Welcome to MathPath, a one-of-a-kind brain-training game designed to enhance you
 
 ## How to Play
 
+
+## How to Play
+
 1. Access the MathPath game on GitHub Pages: [Play MathPath](https://yosefyan.github.io/mathpath).
 
 2. Solve the random expressions presented to you.
 
-3. Be strategic in your choices on the left side, as each selected number becomes unavailable for future use.
+3. Utilize the operation buttons (*, /, +, -) to combine the two selected numbers on the left side and find the solution.
 
-4. Continue to challenge yourself and see how far you can go in the MathPath!
+4. Be strategic in your choices on the left side, as each selected number becomes unavailable for future use.
+
+5. Successfully solve all four expressions to progress to the next random number.
+
+6. Continue to challenge yourself and see how far you can go in the MathPath!
 
 ## Technologies Used
 
