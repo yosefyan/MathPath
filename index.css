@@ -1,0 +1,45 @@
+.title {
+  background: -webkit-linear-gradient(#efb4628c, rgba(0, 255, 255, 0.568));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+ul li:first-child {
+  border-left: none;
+}
+
+.tShadow {
+  text-shadow: 0 0 1rem black;
+}
+
+.spinOnce {
+  animation: spinOnce 1s linear 1;
+}
+
+.upDown {
+  animation: upDown 4.5s ease-in-out infinite;
+
+}
+
+@keyframes spinOnce {
+  from {
+    transform: rotate(0);
+    filter: blur(1rem);
+  }
+  to {
+    filter: blur(0);
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes upDown {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-2vh);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}

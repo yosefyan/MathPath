@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Math Path</title>
+    <link rel="stylesheet" href="index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="module" src="./scripts/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap"
+      rel="stylesheet" />
+  </head>
+  <body
+    class="overflow-hidden bg-[url('./assets/mathBG.jpg')] bg-[length:100%_100%]">
+    <div
+      class="container m-auto w-[100vw] h-[100vh] relative text-center text-8xl font-black">
+      <h1 class="title rop-shadow-[0_35px_35px_orange] tracking-widest xl:text-8xl text-5xl">
+        MATH PATH
+      </h1>
+      <h5 class="title xl:text-3xl text-2xl">
+        Complete all operations to get a new number!
+      </h5>
+      <form
+        class="h-[50vh] flex justify-center items-center"
+        id="theForm"
+        action="#">
+        <div
+          class="upDown flex justify-center items-center flex-col gap-3 w-[40%] h-[50%]">
+          <label class="text-3xl text-white">First Number</label>
+          <input
+            class="text-5xl text transition-all flex justify-center text-center w-[30%] transition-all font-black hover:w-[35%] h-[40%] bg-gradient-to-tr from-teal-900 to-fuchsia-100 rounded-full"
+            type="number"
+            id="firstNum"
+            value=""
+            placeholder="0" />
+        </div>
+        <div class="flex flex-col w-full justify-evenly items-center">
+          <section
+            class="bg-teal-800/75 w-[50%] flex justify-between flex-col">
+            <ul
+              class="flex justify-center w-full h-[10vh] items-center rounded-lg"
+              id="theUL"></ul>
+          </section>
+        </div>
+        <div
+          class="upDown flex justify-center items-center flex-col gap-3 w-[40%] h-[50%]">
+          <label class="text-3xl text-white">Second Number</label>
+          <input
+            class="text-5xl flex font-black justify-centerm text-center w-[30%] transition-all hover:w-[35%] h-[40%] bg-gradient-to-tr from-teal-900 to-fuchsia-100 rounded-full"
+            type="number"
+            id="secondNum"
+            value=""
+            placeholder="0" />
+        </div>
+      </form>
+      <div class="flex -z-50 justify-center w-full h-[100vh] absolute top-0">
+        <div
+          id="elementToSpin"
+          class="flex items-end line w-[40%] h-[70%] origin-top">
+          <p
+            id="num"
+            class="flex text-pink-900/50 bg-gradient-to-r from-cyan-500/25 to-blue-500/25 tracking-widest text-bold justify-center items-center text-center text-7xl w-[100%] h-[20%] shadow-lg shadow-pink-500/50"></p>
+        </div>
+      </div>
+      <ul id="numbers" class="flex justify-evenly items-center h-[40vh]"></ul>
+    </div>
+  </body>
+</html>
