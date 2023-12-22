@@ -12,7 +12,7 @@ Welcome to MathPath, a one-of-a-kind brain-training game designed to enhance you
 
 ## How to Play
 
-1. Access the MathPath game on GitHub Pages: [Play MathPath](https://yosefyan.github.io/mathpath).
+1. Access the MathPath game on GitHub Pages: [Play MathPath](https://yosefyan.github.io/MathPath).
 
 2. Solve the random expressions presented to you.
 
